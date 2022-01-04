@@ -1,4 +1,4 @@
-if  state.currentTool==0
-M106P3S255;
-if  state.currentTool==1
-M106P2S255;
+if state.currentTool==0
+  M42 P0 S1
+elif state.currentTool==1
+  M42 P1 S1
